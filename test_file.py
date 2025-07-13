@@ -3,7 +3,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import json
 
 # Authenticate and connect to Google Sheets
 def connect_to_gsheet(scope, spreadsheet_name, sheet_name):
